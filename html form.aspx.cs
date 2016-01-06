@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+
 
 public partial class _Default : System.Web.UI.Page
 {
@@ -12,7 +14,9 @@ public partial class _Default : System.Web.UI.Page
 
     }
 
-    protected void TextBox1_TextChanged(object sender, EventArgs e)
+
+
+    protected void but_submit_Click(object sender, EventArgs e)
     {
 
     }

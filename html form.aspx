@@ -17,8 +17,8 @@
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
-&nbsp;Customer Name:&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="nametxt" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+        &nbsp;Customer Name:&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="nametxt" runat="server"></asp:TextBox>
         <br />
         <br />
 &nbsp;Description :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -32,7 +32,7 @@
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="but_submit" runat="server" Text="Insert Data" />
+        <asp:Button ID="but_submit" runat="server" OnClick="but_submit_Click" Text="Insert Data" />
     </form>
 </body>
 </html>
